@@ -1,6 +1,6 @@
 ## Review
 
-Deep reading: [Quick Review for Free Database Cloud Services or Demos on NYCT Dataset]()
+Deep reading: [Quick Review for Free Database Cloud Services or Demos on NYCT Dataset](https://joinbase.io/blog/clouds-quick-reivew/)
 
 Notes: Just treat this as a quantitative analysis although we give out the quantitative results. Welcome to reproduce yourself.
 
@@ -22,13 +22,13 @@ the elapsed time is in the unit of milliseconds.
 | Timescale Cloud | 650.739  | 840.430 | 10M  |
 | TS:JB Ratio | 834      |   189   | 1:1  | 
 
-2. `JoinBase Cloud Preview` vs `ClickHouse Playground` On nyct_strip dataset
+2. `JoinBase Cloud Preview` vs `ClickHouse Playground` on nyct_strip dataset
 
 the elapsed time is in the unit of second.
 
-| Database Service | Q1 |  Q2 | Q3 | Q4 | Dataset Size (rows) |  | 
-| :----------- | :-------------- | :-------------- | :-------------- | :-------------- |:-------------- |:-------------- |
-| JoinBase Cloud Preview    | 0.168  | 0.259 | 0.355 |  1.126  | 1 billion    | 
+| Database Service | Q1 |  Q2 | Q3 | Q4 | Dataset Size (rows) |
+| :----------- | :-------------- | :-------------- | :-------------- | :-------------- |:-------------- |
+| JoinBase Cloud Preview | 0.168  | 0.259 | 0.355 |  1.126  | 1 billion    | 
 | ClickHouse Playground | 1.664  | 1.659 | 1.714  | 2.431  | 3.46 billion | 
 | TS:JB Ratio | 9.9    | 6.4   | 4.8    | 2.16   |   3.46 |
 
